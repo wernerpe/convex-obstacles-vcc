@@ -13,6 +13,15 @@ closed-form separating-halfplane inflation against each obstacle.
 uv sync
 ```
 
+## Run the example
+
+```bash
+uv run python scripts/example_2d.py
+```
+
+Writes `tmp/example_2d.png` (obstacles + inflated regions) and
+`tmp/example_2d_cliques.png` (obstacles + clique convex hulls).
+
 ## Usage
 
 ```python
