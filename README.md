@@ -98,3 +98,32 @@ src/convexobstaclesvcc/
 
 scripts/                  # runnable examples
 ```
+
+## References
+
+- Werner, P., Amice, A., Marcucci, T., Rus, D., Tedrake, R.
+  *Approximating robot configuration spaces with few convex sets using clique
+  covers of visibility graphs.* ICRA 2024, pp. 10359–10365 — original VCC.
+
+- Werner, P., Cheng, R., Stewart, T., Tedrake, R., Rus, D.
+  *Superfast configuration-space convex set computation on GPUs for online
+  motion planning.* arXiv:2504.10783, 2025 — clique-enclosing modification of
+  IRIS that this package's inflation specializes to the convex-obstacle case.
+
+```bibtex
+@inproceedings{werner2024approximating,
+  title={Approximating robot configuration spaces with few convex sets using clique covers of visibility graphs},
+  author={Werner, Peter and Amice, Alexandre and Marcucci, Tobia and Rus, Daniela and Tedrake, Russ},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={10359--10365},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{werner2025superfast,
+  title={Superfast configuration-space convex set computation on GPUs for online motion planning},
+  author={Werner, Peter and Cheng, Richard and Stewart, Tom and Tedrake, Russ and Rus, Daniela},
+  journal={arXiv preprint arXiv:2504.10783},
+  year={2025}
+}
+```
